@@ -25,62 +25,17 @@ header {
   }
 
 
-
-
 .hero {
-  background-image: url(../multimedia/nycity.jpg);
+  background-image: url(../multimedia/tokio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   animation-name: opacidad_index;
   animation-duration: 0.5s; 
   height: 100vh;
-   
-    
-          
+            
   }
 
 
-  .body {
-    background-image: url(../multimedia/fondo1.jpg);
-    background-size: cover;
-    animation-name: opacidad_index;
-    animation-duration: 0.5s; 
-    background-repeat: no-repeat;
-  }
-
-
-  .bodyGaleria {
-    background-color: black;
-    background-size: cover;
-    animation-name: opacidad_index;
-    animation-duration: 0.5s; 
-    background-repeat: no-repeat;
-  }
-
-  .bodyCiudades {
-    background-image: url(../multimedia/fondo3.jpg);
-    background-size: cover;
-    animation-name: opacidad_index;
-    animation-duration: 0.5s; 
-    background-repeat: no-repeat;
-    
-  }
-
-  .bodyContacto {
-    background-image: url(../multimedia/fondo4.jpg);
-    background-size: cover;
-    animation-name: opacidad_index;
-    animation-duration: 0.5s; 
-    background-repeat: no-repeat;
-    
-  }
-
-
-  .contenedor .header {
-    animation-name: opacidad_index;
-    animation-duration: 0.7s;        
-  }
- 
 
   .box-headline { 
     display: flex;
@@ -126,7 +81,6 @@ header {
   background-size: cover;
   height: 100vh;
 }
-
 
 
 
@@ -412,7 +366,7 @@ header {
   position: absolute;
   width: 22px;
   height: 42px;
-  bottom: 40px;
+  bottom: 90px;
   left: 50%;
   margin-left: -12px;
   border-radius: 15px;
@@ -529,7 +483,7 @@ label {
 .formulario {
  
   color:white;
-  padding: 10px;
+  padding: 0;
   text-shadow: 0px 0px 3px black;
 }
 
@@ -1041,15 +995,18 @@ nav li:hover>ul{
       
     } 
 
-    .cd-top {
-      display: none;
-      
-    } 
-
     .secondary-nav {
-      margin-bottom: 0;
+      margin-bottom: 100px;
       text-align: center;
       width: 100%;
+    }
+
+    .cities{
+      padding: 230px 0 600px;
+    }
+
+    .mouse {
+      bottom: 190px;
     }
 }
 
@@ -1099,6 +1056,12 @@ nav li:hover>ul{
       margin-bottom: 20px;
     }
  
+    .hero {
+      background-image: url(/multimedia/tokio.jpg);
+      
+    } 
+
+
 }
 
 @media only screen and (max-width: 520px) {
@@ -1130,6 +1093,12 @@ nav li:hover>ul{
   }
 
 
+  .hero {
+    background-image: url(/multimedia/tokio.jpg);
+    
+  } 
+
+ 
 
 }
 
@@ -1151,6 +1120,12 @@ nav li:hover>ul{
   font-size: 20px;
   width: 100%;
 }
+
+.hero {
+  background-image: url(/multimedia/tokio.jpg);
+  
+} 
+
 
 }
 
