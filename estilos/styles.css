@@ -29,10 +29,12 @@ header {
 
 .hero {
   background-image: url(../multimedia/nycity.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-    animation-name: opacidad_index;
-    animation-duration: 0.5s; 
-    background-repeat: no-repeat;
+  animation-name: opacidad_index;
+  animation-duration: 0.5s; 
+  height: 100vh;
+   
     
           
   }
@@ -107,12 +109,6 @@ header {
   
 }
 
-.hero1  {
-  background-image: url(../multimedia/viajevagon.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .hero2  {
   background-color: #333;;
 }
@@ -121,12 +117,14 @@ header {
   background-image: url(../multimedia/celular.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .heros3  {
   background-image: url(../multimedia/contacto-fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 
@@ -1021,11 +1019,6 @@ nav li:hover>ul{
     width: 700px;
 }
 
-  .hero{
-    background-color: #333;
-    
-  }
-
 
     .seccion5 {
         font-size: 40px;
@@ -1042,6 +1035,22 @@ nav li:hover>ul{
       display: block;
       margin-bottom: 20px;
     } 
+
+    .hero {
+      background-image: url(/multimedia/tokio.jpg);
+      
+    } 
+
+    .cd-top {
+      display: none;
+      
+    } 
+
+    .secondary-nav {
+      margin-bottom: 0;
+      text-align: center;
+      width: 100%;
+    }
 }
 
 
@@ -1073,11 +1082,6 @@ nav li:hover>ul{
       float: none;
   }
 
-  .hero{
-    background-color: #333; 
-      }
-
-
       .seccion5 {
         font-size: 40px;
         width: 500px;
@@ -1094,7 +1098,7 @@ nav li:hover>ul{
       display: block;
       margin-bottom: 20px;
     }
-
+ 
 }
 
 @media only screen and (max-width: 520px) {
@@ -1125,6 +1129,8 @@ nav li:hover>ul{
     margin-bottom: 20px;
   }
 
+
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -1145,7 +1151,6 @@ nav li:hover>ul{
   font-size: 20px;
   width: 100%;
 }
-
 
 }
 
